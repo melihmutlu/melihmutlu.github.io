@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About</title>
+    <style>
+       body {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          background-color: #282a36;
+          color: #f8f8f2;
+          white-space: pre-wrap;
+      }
+      code {
+         line-height: 1.3;
+      }
+      /* Define the font size for the JSON text */
+      .json {
+        font-size: 15pt;
+      }
+      /* Define the font size and style for the keys in the JSON */
+      .json-key {
+        font-size: 16pt;
+        font-weight: bold;
+        color: #f1fa8c;
+      }
+      /* Define the font size for the values in the JSON */
+      .json-value {
+        font-size: 15pt;
+        color: #50fa7b;
+      }
+      /* Define the font size and style for the values in the "Conferences" array */
+      .json-value a {
+        font-size: 15pt;
+        text-decoration: none;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <code class="json">
+    {
+      <span class="json-key">"Name": </span>"<span class="json-value">Melih Mutlu</span>",
+      <span class="json-key">"About": </span>"<span class="json-value">Software Engineer. BSc & Msc in Computer Engineering. From Istanbul.</span>",
+      <span class="json-key">"Job": </span>{
+        "<span class="json-key">Current Role": </span>"<span class="json-value">Open-Source Postgres contibutor</span>",
+        "<span class="json-key">Previously": </span>"<span class="json-value">Developer at CosmosDb for PostgreSQL</span>",
+        "<span class="json-key">Company": </span>"<span class="json-value">Microsoft</span>"
+      },
+      <span class="json-key">"Conferences": </span>[
+        "<span class="json-value">Speaker at PgConf.EU, 2022.
+          <a href="https://www.postgresql.eu/events/pgconfeu2022/schedule/speaker/808-melih-mutlu/">Takeaways from the First 6 Months of Hacking on Postgres</a></span>",
+        "<span class="json-value">Speaker at PyCon US, 2021,
+          Lightning-fast analytics queries using Postgres & Citus in the cloud.</span>"
+      ],
+      <span class="json-key">"Links": </span>{
+        "<span class="json-key">Twitter": </span>"<span class="json-value"><a href="https://twitter.com/melihmtl">https://twitter.com/melihmtl</a></span>",
+        "<span class="json-key">GitHub": </span>"<span class="json-value"><a href="https://github.com/melihmutlu/">https://github.com/melihmutlu/</a></span>",
+        "<span class="json-key">LinkedIn": </span>"<span class="json-value"><a href="https://www.linkedin.com/in/melihmtl/">https://www.linkedin.com/in/melihmtl/</a></span>",
+        "<span class="json-key">Email": </span> "<span class="json-value"><a href="mailto: m.melihmutlu@gmail.com">m.melihmutlu@gmail.com</a></span>",
+      <span class="json-key">"Published": </span>[
+        "<span class="json-value"><a href="https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/how-to-add-more-environments-to-the-postgres-ci/ba-p/3641282">How to Add More Environments to the Postgres CI</a></span>",
+        "<span class="json-value"><a href="https://aclanthology.org/2022.acl-srw.39/">A Dataset and BERT-based Models for Targeted Sentiment Analysis on Turkish Texts</a>,
+        <em>Association for Computational Linguistics: SRW, 2022</em></span>",
+        "<span class="json-value"><a href="https://ieeexplore.ieee.org/abstract/document/8806327/">Active Learning with Bayesian Nonnegative Matrix Factorization for Recommender Systems</a>,
+        <em>SIU, 2019</em></span>",
+      ]
+    }
+    </code>
+  </body>
+</html>
